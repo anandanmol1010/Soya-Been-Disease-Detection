@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background circle -->
+    <path
+        android:fillColor="@color/white"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+
+    <!-- Leaf shape -->
+    <path
+        android:fillColor="@color/light_green"
+        android:pathData="M100,50 C140,50 160,90 160,130 C160,150 140,170 120,170 C80,170 60,130 60,90 C60,70 80,50 100,50 Z" />
+
+    <!-- Leaf vein -->
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M100,60 L100,160" />
+
+    <!-- Leaf side veins -->
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M100,80 L130,90" />
+
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M100,100 L140,110" />
+
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M100,120 L130,130" />
+
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M100,80 L70,90" />
+
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M100,100 L60,110" />
+
+    <path
+        android:strokeColor="@color/dark_green"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M100,120 L70,130" />
+
+    <!-- Scan line effect -->
+    <path
+        android:strokeColor="@color/accent_brown"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M60,140 L140,140" />
+
+</vector>

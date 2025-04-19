@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash screen style -->
+    <style name="SplashScreenStyle" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/primary_green</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+    </style>
+    
+    <!-- App Launch Theme - Prevents the white screen -->
+    <style name="AppTheme.Launcher" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowBackground">@color/primary_green</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+    </style>
+</resources>
