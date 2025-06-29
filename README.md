@@ -42,8 +42,5 @@ The app can detect the following diseases:
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
 
-## License
-This project is licensed under the Apache License 2.0. See the LICENSE file for more details.
-
 ## Contact
-For any inquiries or support, please contact [Your Name] at [Your Email].
+For any inquiries or support, please contact Anmol Anand at anandanmol1010@gmail.com.
